@@ -1,0 +1,25 @@
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.site-layout .site-layout-background {
+  background: #fff;
+}
+[data-theme="dark"] .site-layout .site-layout-background {
+  background: #141414;
+}
+
+.choiceFormContainer {
+  width: 321px;
+  z-index: 1000;
+  position: absolute;
+  background-color: white;
+}
+
+.PrincipalMap {
+  height: 100vh !important;
+  width: 100% !important;
+  justify-content: center;
+  position: relative;
+}
