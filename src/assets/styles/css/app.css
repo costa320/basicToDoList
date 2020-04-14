@@ -23,3 +23,10 @@
   justify-content: center;
   position: relative;
 }
+#dangerColorOnHover {
+  font-size: 1.5em;
+  padding-right: 1em;
+}
+#dangerColorOnHover:hover {
+  color: red !important;
+}

@@ -4,6 +4,7 @@ import TableList from "./TableList.jsx";
 import DrawerNewItem from "./DrawerNewItem.jsx";
 /* STYLE */
 import "../assets/styles/css/bootstrap.css";
+import "../assets/styles/css/app.css";
 
 export default class App extends Component {
   /*   constructor(props) {

@@ -7,7 +7,8 @@ import {
   UpdateItem,
 } from "../redux/actions/toDoList.actions.js";
 /* ANTD */
-import { Checkbox, DeleteOutlined, Button } from "antd";
+import { Checkbox, Button } from "antd";
+import { DeleteOutlined } from "@ant-design/icons";
 /* STYLE */
 import "../assets/styles/css/bootstrap.css";
 import "antd/dist/antd.css";
@@ -37,14 +38,10 @@ class TableToDoList extends Component {
           <td>{obj.name}</td>
           <td>{obj.description}</td>
           <td>
-            <Button
-              type="link"
-              danger
+            <DeleteOutlined
+              id={"dangerColorOnHover"}
               onClick={() => this.props.DeleteItem_(obj.id)}
-            >
-              Delete
-            </Button>
-            {/*   <DeleteOutlined onClick={this.props.DeleteItem_(obj.id)} /> */}
+            />
           </td>
         </tr>
       );
