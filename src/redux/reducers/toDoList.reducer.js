@@ -7,24 +7,6 @@ const ToDoListReducer = (
         description: "buy 1 apple",
         done: false,
       },
-      {
-        id: 2,
-        name: "2",
-        description: "buy 1 apple",
-        done: false,
-      },
-      {
-        id: 3,
-        name: "3",
-        description: "buy 1 apple",
-        done: false,
-      },
-      {
-        id: 4,
-        name: "4",
-        description: "buy 1 apple",
-        done: false,
-      },
     ],
   },
   action
